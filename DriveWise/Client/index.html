@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DriveWise</title>
+    <link rel="icon" href="./images/favicon.png" type="image/svg+xml">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="overlay"></div>
+        <a href="index.html" class="logo">
+            <img src="images/Blue Gold Minimalist Car Showroom Logo (1).png " alt="DriveWise logo">
+        </a>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li>
+                    <a href="#home" class="navbar-link">Trang chủ</a>
+                </li>
+                <li>
+                    <a href="#featured-car" class="navbar-link">Xe Nổi bật</a>
+                </li>
+                <li>
+                    <a href="#reviews" class="navbar-link">Đánh giá</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="navbar-link">Liên hệ</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <div class="header-contact">
+                <a href="tel:0829845676" class="contact-link">0829845676</a>
+                <span class="contact-time">Thứ hai - Thứ bảy: 9:00 sáng - 6:00 chiều</span>
+            </div>
+            <a href="#featured-car" class="btn" aria-label="Khám phá xe">
+                <ion-icon name="car-outline"></ion-icon>
+                <span>Khám phá xe</span>
+            </a>
+            
+                <a href="login.html" class="btn" id="login-button">
+                    <span>
+                        Đăng nhập
+                    </span></a>
+        </div>
+    </header>
+    <main>
+        <article>
+
+            <section class="section hero" id="home">
+                <div class="container">
+
+                    <div class="hero-content">
+                        <h2 class="h1 hero-title">Sự Lựa Chọn của Những Người Khôn Ngoan</h2> 
+                        <p class="hero-text">
+                            Sống tại Karachi, Lahore và Islamabad!
+                        </p>
+                    </div>
+
+                    <div class="hero-banner">
+                        <img src="images/hero-banner.jpg" alt="background">
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section class="section featured-car" id="featured-car">
+                <div class="container">
+
+                    <div class="title-wrapper">
+                        <h2 class="h2 section-title">Xe Nổi bật</h2>
+
+                        <a href="login.html" class="featured-car-link">
+                            <span>Xem thêm</span>
+
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </a>
+                    </div>
+
+                    <ul class="featured-car-list">
+
+                        <li>
+                            <div class="featured-car-card">
+                                <figure class="card-banner">
+                                    <img src="images\hyundai-santafe-2021-4.jpg" alt="Hyundai Santa Fe 2.2 " loading="lazy"
+                                        width="440" height="300" class="w-100">
+                                </figure>
+
+                                <div class="card-content">
+                                    <div class="card-title-wrapper">
+                                        <h3 class="h3 card-title">
+                                            <a href="#">Hyundai Santa Fe 2.2</a>
+                                        </h3>
+                                        <data class="year" value="2023">2021</data>
+                                    </div>
+
+                                    <ul class="card-list">
+                                        <li class="card-list-item">
+                                            <ion-icon name="people-outline"></ion-icon>
+                                            <span class="card-item-text">7 Người</span>
+                                        </li>
+                                        <li class="card-list-item">
+                                            <ion-icon name="flash-outline"></ion-icon>
+                                            <span class="card-item-text">Dầu </span>
+                                        </li>
+                                        <li class="card-list-item">
+                                            <ion-icon name="speedometer-outline"></ion-icon>
+                                            <span class="card-item-text">12.82 km/lít </span>
+                                        </li>
+                                        <li class="card-list-item">
+                                            <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                                            <span class="card-item-text">Tự động</span>
+                                        </li>
+                                    </ul>
+
+                                    <div class="card-price-wrapper">
+                                        <p class="card-price">
+                                            <strong>999K </strong> / ngày
+                                        </p>
+                                        <button class="btn fav-btn" aria-label="Thêm vào danh sách yêu thích">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn">Thuê ngay</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="featured-car-card">
+                                <figure class="card-banner">
+                                    <img src="images\toyota raize2022.webp" alt="Toyota Raize 2022  " loading="lazy"
+                                        width="440" height="300" class="w-100">
+                                </figure>
+
+                                <div class="card-content">
+                                    <div class="card-title-wrapper">
+                                        <h3 class="h3 card-title">
+                                            <a href="#">Toyota Raize 2022</a>
+                                        </h3>
+                                        <data class="year" value="2022">2022</data>
+                                    </div>
+
+                                    <ul class="card-list">
+                                        <li class="card-list-item">
+                                            <ion-icon name="people-outline"></ion-icon>
+                                            <span class="card-item-text">5 Người</span>
+                                        </li>
+
+                                        <li class="card-list-item">
+                                            <ion-icon name="flash-outline"></ion-icon>
+                                            <span class="card-item-text">Xăng</span>
+                                        </li>
+                                        <li class="card-list-item">
+                                            <ion-icon name="speedometer-outline"></ion-icon>
+                                            <span class="card-item-text">28.011 km/lít</span>
+                                        </li>
+                                        <li class="card-list-item">
+                                            <ion-icon name="hardware-chip-outline"></ion-icon>
+                                            <span class="card-item-text">Tự động</span>
+                                        </li>
+                                    </ul>
+
+                                    <div class="card-price-wrapper">
+                                        <p class="card-price">
+                                            <strong>699K </strong> / ngày
+                                        </p>
+                                     <button class="btn fav-btn" aria-label="Thêm vào danh sách yêu thích">
+                                                            <ion-icon name="heart-outline"></ion-icon>
+                                          
+                                        </button>
+                                        <button class="btn">Thuê ngay</button>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </li>
+                                        <li>
+                                            <div class="featured-car-card">
+                                                <figure class="card-banner">
+                                                    <img src="images\Mercedes-S450-L-Luxury-2020-2.jpg" alt="mercedes benz s450 luxury 2020  " loading="lazy"
+                                                        width="440" height="300" class="w-100">
+                                                </figure>
+                
+                                                <div class="card-content">
+                                                    <div class="card-title-wrapper">
+                                                        <h3 class="h3 card-title">
+                                                            <a href="#">mercedes benz S450 </a>
+                                                        </h3>
+                                                        <data class="year" value="2022">2021</data>
+                                                    </div>
+                
+                                                    <ul class="card-list">
+                                                        <li class="card-list-item">
+                                                            <ion-icon name="people-outline"></ion-icon>
+                                                            <span class="card-item-text">5 Người</span>
+                                                        </li>
+                
+                                                        <li class="card-list-item">
+                                                            <ion-icon name="flash-outline"></ion-icon>
+                                                            <span class="card-item-text">Xăng</span>
+                                                        </li>
+                                                        <li class="card-list-item">
+                                                            <ion-icon name="speedometer-outline"></ion-icon>
+                                                            <span class="card-item-text"> 9,55 km/lít</span>
+                                                        </li>
+                                                        <li class="card-list-item">
+                                                            <ion-icon name="hardware-chip-outline"></ion-icon>
+                                                            <span class="card-item-text">Tự động</span>
+                                                        </li>
+                                                    </ul>
+                
+                                                    <div class="card-price-wrapper">
+                                                        <p class="card-price">
+                                                            <strong>4499K </strong> / ngày
+                                                        </p>
+                                                     <button class="btn fav-btn" aria-label="Thêm vào danh sách yêu thích">
+                                                                            <ion-icon name="heart-outline"></ion-icon>
+                                                          
+                                                        </button>
+                                                        <button class="btn">Thuê ngay</button>
+                                                        </div>
+                                                        </div>
+                                                        </div>
+                                                        </li>
+                                        <li>
+                                            <div class="featured-car-card">
+                                                <figure class="card-banner">
+                                                    <img src="./images/car-3.jpg" alt="Hyundai Tucson" loading="lazy"
+                                                        width="440" height="300" class="w-100">
+                                                </figure>
+                    
+                                                <div class="card-content">
+                                                    <div class="card-title-wrapper">
+                                                        <h3 class="h3 card-title">
+                                                            <a href="#">Hyundai Tucson</a>
+                                                        </h3>
+                                                        <data class="year" value="2021">2021</data>
+                                                    </div>
+                    
+                                                    <ul class="card-list">
+                                                        <li class="card-list-item">
+                                                            <ion-icon name="people-outline"></ion-icon>
+                                                            <span class="card-item-text">5 Người</span>
+                                                        </li>
+                                                        <li class="card-list-item">
+                                                            <ion-icon name="flash-outline"></ion-icon>
+                                                            <span class="card-item-text">Xăng</span>
+                                                        </li>
+                                                        <li class="card-list-item">
+                                                            <ion-icon name="speedometer-outline"></ion-icon>
+                                                            <span class="card-item-text">11.2 km/lít</span>
+                                                        </li>
+                                                        <li class="card-list-item">
+                                                            <ion-icon name="hardware-chip-outline"></ion-icon>
+                                                            <span class="card-item-text">Tự động</span>
+                                                        </li>
+                                                    </ul>
+                    
+                                                    <div class="card-price-wrapper">
+                                                        <p class="card-price">
+                                                            <strong>799K </strong> / ngày
+                                                        </p>
+                                                        <button class="btn fav-btn" aria-label="Thêm vào danh sách yêu thích">
+                                                            <ion-icon name="heart-outline"></ion-icon>
+                                                        </button>
+                                                        <button class="btn">Thuê ngay</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="featured-car-card">
+                                                <figure class="card-banner">
+                                                    <img src="images\mercedes c180.webp" alt="mercedes benz C180  " loading="lazy"
+                                                        width="440" height="300" class="w-100">
+                                                </figure>
+                
+                                                <div class="card-content">
+                                                    <div class="card-title-wrapper">
+                                                        <h3 class="h3 card-title">
+                                                            <a href="#">mercedes benz C180  </a>
+                                                        </h3>
+                                                        <data class="year" value="2022">2019 </data>
+                                                    </div>
+                
+                                                    <ul class="card-list">
+                                                        <li class="card-list-item">
+                                                            <ion-icon name="people-outline"></ion-icon>
+                                                            <span class="card-item-text">5 Người</span>
+                                                        </li>
+                
+                                                        <li class="card-list-item">
+                                                            <ion-icon name="flash-outline"></ion-icon>
+                                                            <span class="card-item-text">Xăng</span>
+                                                        </li>
+                                                        <li class="card-list-item">
+                                                            <ion-icon name="speedometer-outline"></ion-icon>
+                                                            <span class="card-item-text"> 13.16 km/lít</span>
+                                                        </li>
+                                                        <li class="card-list-item">
+                                                            <ion-icon name="hardware-chip-outline"></ion-icon>
+                                                            <span class="card-item-text">Tự động</span>
+                                                        </li>
+                                                    </ul>
+                
+                                                    <div class="card-price-wrapper">
+                                                        <p class="card-price">
+                                                            <strong>1999K </strong> / ngày
+                                                        </p>
+                                                     <button class="btn fav-btn" aria-label="Thêm vào danh sách yêu thích">
+                                                                            <ion-icon name="heart-outline"></ion-icon>
+                                                          
+                                                        </button>
+                                                        <button class="btn">Thuê ngay</button>
+                                                        </div>
+                                                        </div>
+                                                        </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="featured-car-card">
+                                                                <figure class="card-banner">
+                                                                    <img src="images\merccdes e180.webp" alt="mercedes benz e180  " loading="lazy"
+                                                                        width="440" height="300" class="w-100">
+                                                                </figure>
+                                
+                                                                <div class="card-content">
+                                                                    <div class="card-title-wrapper">
+                                                                        <h3 class="h3 card-title">
+                                                                            <a href="#">mercedes benz E180  </a>
+                                                                        </h3>
+                                                                        <data class="year" value="2022">2021 </data>
+                                                                    </div>
+                                
+                                                                    <ul class="card-list">
+                                                                        <li class="card-list-item">
+                                                                            <ion-icon name="people-outline"></ion-icon>
+                                                                            <span class="card-item-text">5 Người</span>
+                                                                        </li>
+                                
+                                                                        <li class="card-list-item">
+                                                                            <ion-icon name="flash-outline"></ion-icon>
+                                                                            <span class="card-item-text">Xăng</span>
+                                                                        </li>
+                                                                        <li class="card-list-item">
+                                                                            <ion-icon name="speedometer-outline"></ion-icon>
+                                                                            <span class="card-item-text"> 11.68 km/lít</span>
+                                                                        </li>
+                                                                        <li class="card-list-item">
+                                                                            <ion-icon name="hardware-chip-outline"></ion-icon>
+                                                                            <span class="card-item-text">Tự động</span>
+                                                                        </li>
+                                                                    </ul>
+                                
+                                                                    <div class="card-price-wrapper">
+                                                                        <p class="card-price">
+                                                                            <strong>2799K </strong> / ngày
+                                                                        </p>
+                                                                     <button class="btn fav-btn" aria-label="Thêm vào danh sách yêu thích">
+                                                                                            <ion-icon name="heart-outline"></ion-icon>
+                                                                          
+                                                                        </button>
+                                                                        <button class="btn">Thuê ngay</button>
+                                                                        </div>
+                                                                        </div>
+                                                                        </div>
+                                                                        </li>
+                                    </ul>
+                                </div>
+                            </section>
+                            <section class="reviews" id="reviews">
+                                <div class="contain">
+                                    <h2>Đánh giá</h2>
+                                    <div class="outerdiv">
+                                        <div class="innerdiv">
+                                          <!-- div1 -->
+                                          <div class="div1 eachdiv">
+                                            <div class="userdetails">
+                                              <div class="imgbox">
+                                                <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-daniel.jpg" alt="">
+                                              </div>
+                                              <div class="detbox">
+                                                <p class="name">Ali Raza</p>
+                                                <p class="designation">Sinh viên đã xác minh</p>
+                                              </div>
+                                            </div>
+                                            <div class="review">
+                                              <h4>"Gần đây, tôi đã thuê một chiếc xe từ DriveWise, và tôi rất hài lòng với trải nghiệm. Nhân viên rất thân thiện và hữu ích, hướng dẫn tôi qua quy trình thuê xe và trả lời tất cả các câu hỏi của tôi."</h4>
+                                            <p>"Chiếc xe tôi thuê có tình trạng tuyệt vời và chạy mượt mà suốt cả chuyến đi của tôi. Tôi rất khuyến khích DriveWise cho bất kỳ ai cần dịch vụ thuê xe đáng tin cậy và không gặp rắc rối nào." </p>
+                                            </div>
+                                          </div>
+                                          <!-- div2 -->
+                                          <div class="div2 eachdiv">
+                                            <div class="userdetails">
+                                              <div class="imgbox">
+                                                <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jonathan.jpg" alt="">
+                                              </div>
+                                              <div class="detbox">
+                                                <p class="name">Zainab Khan</p>
+                                                <p class="designation">Sinh viên đã xác minh</p>
+                                              </div>
+                                            </div>
+                                            <div class="review">
+                                              <h4>Thuê xe từ DriveWise thật dễ dàng!</h4>
+                                            <p>"Nhân viên thân thiện, xe sạch sẽ và được bảo trì tốt, và toàn bộ quy trình diễn ra nhanh chóng và không gặp rắc rối. Tôi chắc chắn sẽ thuê xe từ họ lại trong tương lai." </p>
+                                            </div>
+                                          </div>
+                                          <!-- div3 -->
+                                          <div class="div3 eachdiv">
+                                            <div class="userdetails">
+                                              <div class="imgbox">
+                                                <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-kira.jpg" alt="">
+                                              </div>
+                                              <div class="detbox">
+                                                <p class="name dark">Amina Siddiqui</p>
+                                                <p class="designation dark">Sinh viên đã xác minh</p>
+                                              </div>
+                                            </div>
+                                            <div class="review dark">
+                                              <h4>DriveWise là lựa chọn hàng đầu của tôi khi thuê xe mỗi khi tôi đi du lịch.</h4>
+                                              <p>"Dịch vụ của họ luôn xuất sắc, và tôi đánh giá cao sự chú ý đến chi tiết của họ. Các phương tiện luôn được làm sạch, và quy trình thuê xe luôn nhanh chóng và không gặp rắc rối. DriveWise làm hơn và vượt xa để đảm bảo sự hài lòng của khách hàng, và các tùy chọn đón và trả khách linh hoạt của họ làm cho nó vô cùng thuận tiện. Sự hiệu quả và chuyên nghiệp của nhân viên của họ đã tiết kiệm cho tôi thời gian quý báu, giúp tôi tập trung vào công việc mà không cần phải lo lắng về phương tiện di chuyển. Tôi rất khuyến khích DriveWise cho các nhà đi công tác. Tôi đã giới thiệu DriveWise cho bạn bè và gia đình, và tất cả đều ấn tượng với chất lượng dịch vụ. 100% khuyến nghị!"</p>
+                                            </div>
+                                          </div>
+                                          <!-- div4 -->
+                                          <div class="div4 eachdiv">
+                                            <div class="userdetails">
+                                              <div class="imgbox">
+                                                <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jeanette.jpg" alt="">
+                                              </div>
+                                              <div class="detbox">
+                                                <p class="name dark">Emily Johnson</p>
+                                                <p class="designation dark">Sinh viên đã xác minh</p>
+                                              </div>
+                                            </div>
+                                            <div class="review dark">
+                                              <h4>Tổng thể là một trải nghiệm tuyệt vời và đáng giá</h4>
+                                            <p>"Cảm ơn bạn về trải nghiệm tuyệt vời! Chiếc xe chúng tôi thuê rộng rãi, thoải mái và tiết kiệm nhiên liệu, làm cho chuyến đi của chúng tôi thú vị. Đội ngũ tại DriveWise thân thiện và nhiệt tình, đảm bảo chúng tôi có tất cả những gì cần thiết. Rất khuyến nghị!"</p>
+                                            </div>
+                                          </div>
+                                          <!-- div5 -->
+                                          <div class="div5 eachdiv">
+                                            <div class="userdetails">
+                                              <div class="imgbox">
+                                                <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-patrick.jpg" alt="">
+                                              </div>
+                                              <div class="detbox">
+                                                <p class="name">Bilal Shah</p>
+                                                <p class="designation">Sinh viên đã xác minh</p>
+                                              </div>
+                                            </div>
+                                            <div class="review">
+                                              <h4>Tôi đã là một khách hàng trung thành của DriveWise trong nhiều năm qua, và họ luôn vượt qua những mong đợi của tôi.</h4>
+                                            <p>"Họ có một loạt các phương tiện thuê đa dạng, cung cấp một loạt các xe để lựa chọn, cho dù tôi cần một chiếc xe nhỏ gọn cho một chuyến đi thành phố hay một chiếc SUV rộng rãi cho một kỳ nghỉ gia đình. Giá cả cạnh tranh, và dịch vụ khách hàng xuất sắc. DriveWise đã trở thành sự lựa chọn hàng đầu của tôi cho tất cả các nhu cầu thuê xe của tôi."</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </div>
+                            </section>
+                            <footer class="footer">
+                                <p>Câu hỏi? Gọi 0829845676</p>
+                                <div class="footer-cols">
+                                    <ul>
+                                        <li><a href="#">Câu hỏi thường gặp</a></li>
+                                        <li><a href="#">Quan hệ nhà đầu tư</a></li>
+                                        <li><a href="#">Cách Xem</a></li>
+                                        <li><a href="#">Thông tin công ty</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Trung tâm trợ giúp</a></li>
+                                        <li><a href="#">Công việc</a></li>
+                                        <li><a href="#">Điều khoản sử dụng</a></li>
+                                        <li><a href="#">Liên hệ chúng tôi</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Tài khoản</a></li>
+                                        <li><a href="#">Đổi thưởng thẻ quà tặng</a></li>
+                                        <li><a href="#">Quyền riêng tư</a></li>
+                                        <li><a href="#">Kiểm tra tốc độ</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Trung tâm truyền thông</a></li>
+                                        <li><a href="#">Mua Thẻ Quà Tặng</a></li>
+                                        <li><a href="#">Tùy chọn Cookie</a></li>
+                                        <li><a href="#">Thông báo pháp lý</a></li>
+                                    </ul>
+                                    <div class="feet">
+                                        <p>&copy; 2023 DriveWise. Bảo lưu mọi quyền.</p>
+                                    </div>
+                                </div>
+                    
+                            </footer>
+                    
+                            <!--
+                            - liên kết js tùy chỉnh
+                        -->
+                            <script src="scripts/scripts.js"></script>
+                            <!--
+                            liên kết ionicon
+                        -->
+                            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+                    
